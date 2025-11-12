@@ -4,7 +4,7 @@
 
 A simple, professional command-line todo manager written in Python that supports adding, listing, and marking todos done. Suitable as a portfolio piece demonstrating package structure, tests, CI/CD, and AI-assisted development.
 
-![Tests](https://github.com/USERNAME/REPO/actions/workflows/tests.yml/badge.svg)
+[![Run Tests](https://github.com/stampejp/is4010-final-todo-cli/actions/workflows/tests.yml/badge.svg)](https://github.com/stampejp/is4010-final-todo-cli/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 
@@ -18,9 +18,11 @@ A simple, professional command-line todo manager written in Python that supports
 
 ## Installation
 ```bash
-git clone https://github.com/USERNAME/REPO.git
-cd REPO
+git clone https://github.com/stampejp/is4010-final-todo-cli.git
+cd is4010-final-todo-cli
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
 pip install -r requirements.txt
->>>>>>> 3a16de1 (Initial commit: todo CLI with tests, CI, README, LICENSE, AGENTS)
